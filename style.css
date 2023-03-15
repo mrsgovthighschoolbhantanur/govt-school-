@@ -1,0 +1,143 @@
+body{
+	background-color: rgba(180, 47, 47, 0.1);
+	word-wrap:break-word;
+}
+.about{
+	margin-top:15px;
+	text-shadow:5px 5px 5px gray; 
+}
+.carousel-inner{
+    border:5px solid  rgb(145, 20, 20);
+    border-radius:5px;
+	font-style: oblique;
+    
+ 
+} 
+.top-header{
+	border-radius: 5px;
+	display: flex;
+	justify-content:space-between;
+	margin-top:5px;
+	position:sticky;
+	align-items: center;
+}
+.navbar{
+	margin-top:2px;
+	border-radius:5px;
+	position: sticky;
+	top:0px;
+	margin-left:auto;
+}
+.navbar-brand{
+	word-wrap: break-word;
+}
+.inside{
+	margin-bottom:10px;
+}
+
+li.nav-item:hover a{
+    color:red;
+	background-color: rgb(251, 247, 247);
+	border-radius:10px;
+	border-color: black;
+	display:flex;
+	padding-left: 20px;
+}
+li.nav-item:visited{
+	color:red;
+	background-color: rgb(251, 247, 247);
+	border-radius:10px;
+	border-color: black;
+	display:flex;
+	padding-left: 20px;
+}
+.row
+{
+	box-shadow:2px;
+	margin:2px;
+}
+
+.about h5{
+	text-align: center;
+}
+.card{
+	box-shadow: 5px red; 
+}
+
+#facility h1{
+	text-shadow:3px 3px 8px black;
+}
+
+#Events h1{
+	text-shadow:4px 4px 4px rgb(66, 62, 62);
+}
+
+#contact h1{
+
+text-shadow:4px 4px 4px rgb(66, 62, 62);
+ 
+
+}
+/* #facility h1,#contact h1,#Events h1:hover{
+	box-shadow:3px 3px 3px grey;
+	display:inline;
+	padding:5px;
+}
+.about h1:hover{
+	box-shadow:3px 3px 3px grey;
+	display:inline;
+	padding:5px;
+} */
+
+
+.img-thumbnail{
+	border:2px solid blue;
+	box-shadow:10px,10px,gray;
+}
+.bod{
+    box-shadow:2px solid red;
+}
+form input,form textarea{
+	width: 100%;
+	border: 2px;
+	outline: none;
+	box-shadow: 2px solid yellow;
+	background-color:rgba(4, 85, 110, 0.8);
+	padding: 15px;
+	color:white;
+	font-size: 18px;
+	border-radius: 15px;
+	border:2px solid aqua; 
+}
+form input:hover{
+	border-color:black;
+
+}
+form textarea:hover{
+	border-color:black;
+
+}
+.loc{
+	border:2px solid aqua;
+}
+
+#sty{
+	color:white;
+	font-size:25px;
+	margin-top: 10px;
+	padding-left:12px;
+	background-color: rgba(51, 72, 234, 0.9);
+	border-radius:7px;
+	box-shadow:2px 3px 5px rgb(30, 17, 17);
+	/* margin-left: 42%; */
+
+}
+#sty:hover{
+	background-color: rgb(17, 32, 32);
+} 
+
+.bott{
+	color:white;
+	margin-top: 30px;;
+	 
+}
